@@ -12,12 +12,14 @@ PHP email validator using SMTP
 
 ## Basic usage
 
+```php
     <?php
       $validator = new SMTP_Email_Validator('me@example.com');
       if (!$validator->validate('test-client@gmail.com'))) {
         echo 'Invalid email'
       }
     ?>
+```
 
 ## Authors
 
