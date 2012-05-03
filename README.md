@@ -15,7 +15,7 @@ PHP email validator using SMTP
 ```php
 <?php
   $validator = new SMTP_Email_Validator('me@example.com');
-  if (!$validator->validate('test-client@gmail.com'))) {
+  if (!$validator->validate('test-client@gmail.com')) {
     echo 'Invalid email';
   }
 ?>
