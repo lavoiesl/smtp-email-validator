@@ -1,8 +1,8 @@
 <?php
 
-require_once __DIR__ . '/base.php';
+namespace Lavoiesl\Validation\Email\SMTP\Test;
 
-class SMTP_Email_ValidatorBatchTest extends SMTP_Email_ValidatorTestBase {
+class BatchTest extends Base {
 
   private function batch($emails) {
     $results = $this->instance->batchValidate(array_keys($emails));

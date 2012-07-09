@@ -1,10 +1,7 @@
-<phpunit colors="true" verbose="true">
+<phpunit colors="true" verbose="true" bootstrap="vendor/autoload.php">
   <testsuites>
      <testsuite>
-       <directory suffix=".php">tests/</directory>
-       <exclude>
-          <file>base.php</file>
-       </exclude>
-     </testsuite>
+       <directory suffix=".php">src/Lavoiesl/Validation/Email/Test</directory>
+      </testsuite>
    </testsuites>
 </phpunit>

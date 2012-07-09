@@ -1,8 +1,8 @@
 <?php
 
-require_once __DIR__ . '/base.php';
+namespace Lavoiesl\Validation\Email\SMTP\Test;
 
-class SMTP_Email_ValidatorSingleTest extends SMTP_Email_ValidatorTestBase {
+class SingleTest extends Base {
 
   public function testValidEmail() {
     $is_valid = $this->instance->validate('support@github.com');

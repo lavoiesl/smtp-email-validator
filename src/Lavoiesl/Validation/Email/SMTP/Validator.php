@@ -1,14 +1,8 @@
 <?php
 
-  /**
-  * Validate Email Addresses Via SMTP
-  * This queries the SMTP server to see if the email address is accepted.
-  * @copyright http://creativecommons.org/licenses/by/2.0/ - Please keep this comment intact
-  * @author gabe@fijiwebdesign.com
-  * @contributers adnan@barakatdesigns.net sebastien@lavoie.sl
-  * @version 1
-  */
-class SMTP_Email_Validator {
+namespace Lavoiesl\Validation\Email\SMTP;
+
+class Validator {
 
   /**
    * PHP Socket resource to remote MTA

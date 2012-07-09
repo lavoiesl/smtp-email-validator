@@ -1,0 +1,26 @@
+{
+    "name": "lavoiesl/smtp-email-validator"
+    ,"type": "library"
+    ,"description": "PHP email validator using SMTP"
+    ,"keywords": ["php", "email", "smtp", "validation"]
+    ,"homepage": "https://github.com/lavoiesl/smtp-email-validator"
+    ,"license": ["CC-BY-2.0"]
+    ,"authors": [
+        {
+            "name": "Sébastien Lavoie"
+            ,"email": "github@lavoie.sl"
+            ,"homepage": "http://blog.lavoie.sl"
+        }
+        ,{
+            "name": "Gabirieli Lalasava"
+            ,"email": "gabe@fijiwebdesign.com"
+            ,"homepage": "http://www.webdigi.co.uk/"
+        }
+    ]
+    ,"require": {
+        "php": ">=5.3"
+    }
+    ,"autoload": {
+        "psr-0": { "Lavoiesl\\Validation\\Email\\SMTP": "src" }
+    }
+}
