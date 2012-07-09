@@ -21,6 +21,9 @@
         "php": ">=5.3"
     }
     ,"autoload": {
-        "psr-0": { "Lavoiesl\\Validation\\Email\\SMTP": "src" }
+        "psr-0": {
+            "Lavoiesl\\Validation\\Email\\SMTP": "src"
+            ,"Lavoiesl\\Validation\\Email\\SMTP\\Test": "test"
+        }
     }
 }

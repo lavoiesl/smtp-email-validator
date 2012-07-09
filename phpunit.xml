@@ -1,7 +1,19 @@
-<phpunit colors="true" verbose="true" bootstrap="vendor/autoload.php">
+<phpunit
+  backupGlobals="false"
+  backupStaticAttributes="false"
+  colors="true"
+  convertErrorsToExceptions="true"
+  convertNoticesToExceptions="true"
+  convertWarningsToExceptions="true"
+  processIsolation="false"
+  stopOnFailure="false"
+  syntaxCheck="false"
+  verbose="true"
+  bootstrap="vendor/autoload.php"
+>
   <testsuites>
-     <testsuite>
-       <directory suffix=".php">src/Lavoiesl/Validation/Email/Test</directory>
-      </testsuite>
+    <testsuite>
+      <directory suffix="Test.php">./test/Lavoiesl/Validation/Email/SMTP/Test/</directory>
+    </testsuite>
    </testsuites>
 </phpunit>
