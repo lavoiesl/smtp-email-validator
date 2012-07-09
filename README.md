@@ -2,8 +2,6 @@
 
 PHP email validator using SMTP
 
-[![Build Status](https://secure.travis-ci.org/lavoiesl/smtp-email-validator.png)](http://travis-ci.org/lavoiesl/smtp-email-validator)
-
 ## Requirements
 
 ### Windows
